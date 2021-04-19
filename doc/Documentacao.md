@@ -18,7 +18,7 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
 * Python
     - Inicie o download do Python [clicando aqui](https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe).
     - Na tela inicial do instalador deixe marcada a opção `Add Python 3.X to PATH`.
-    ![Add Python 3.X to PATH](PythonPath.png)
+    ![Add Python 3.X to PATH](doc/img/PythonPath.PNG)
     - Clique em `Install Now` e aguarde até o fim da instalação.
     - Para verificar se a instalação foi realizada com sucesso abra o terminal da sua máquina:
         - Windows: `Tecla Windows` + `X` e então `A`. Ou busque por "Prompt de Comando" na barra de pesquisa do menu iniciar
