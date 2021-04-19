@@ -1,7 +1,7 @@
 # Gráfico de Redes com Python e Gephi
 ### O documento a seguir tem como objetivo expor os passos utilizados para criação de um gráfico como o da imagem
 #
-![plot](Grafico.png)
+![plot](/doc/img/Grafico.PNG)
 
 #
 ## Tecnologias Utilizadas:
@@ -23,7 +23,7 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
     - Para verificar se a instalação foi realizada com sucesso abra o terminal da sua máquina:
         - Windows: `Tecla Windows` + `X` e então `A`. Ou busque por "Prompt de Comando" na barra de pesquisa do menu iniciar
         - Linux: `Ctrl` + `Alt` + `T`
-    - Digite `python -v`. Caso a instalação tenha sido um sucesso o resultado esperado será `Python 3.X.X (....)` ![resultadoPython](Terminal.png)
+    - Digite `python -v`. Caso a instalação tenha sido um sucesso o resultado esperado será `Python 3.X.X (....)` ![resultadoPython](/doc/img/Terminal.PNG)
 
 * Bibliotecas Python
 
@@ -61,10 +61,10 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
 * Sigma Exporter
     - Sigma Exporter é um plug-in para Gephi, que permite exportar os gráficos gerados para a plataforma web.
     - Para instalar o plug-in abra o Gephi e na barra de menu superior clique em `Ferramentas` e em seguida em `Plug-ins`.
-    ![](gephiferramentas.png)
+    ![](/doc/img/gephiferramentas.png)
     - Na nova janela aberta, selecione a aba `Plug-ins Disponíveis` e pesquise por `SigmaExporter`.
     - Selecione o plug-in e então clique em `Instalar`.
-    ![](sigmaexporter.png)
+    ![](/doc/img/sigmaexporter.PNG)
     - Após a instalação reinicie o software.
 
 * Visual Studio Code
@@ -76,28 +76,28 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
 ## Configurações Iniciais do Visual Studio Code
 
 Teremos que instalar algumas extensões para o Visual Studio Code, para isto, abra o seu Visual Studio Code e então clique no ícone de extensões no menu lateral esquerdo.
-![extensões](extensoesvs.png)
+![extensões](/doc/img/extensoesvs.png)
 
 Na nova janela busque por `Jupyter`, e então clique em `Install` no primeiro resultado.
 Repita o processo, porém, desta vez pesquisando por `Python`
 #
 ## Planilha com dados
 Para prosseguirmos com o tutorial, utilizaremos uma planilha de dados concedida pela [Embrapa](https://www.embrapa.br/) para realizar o tratamento e disposição dos dados.
-Você pode fazer o download da planilha clicando [aqui.](link)
+Você pode fazer o download da planilha clicando [aqui.](https://github.com/oajoj/network/raw/master/doc/files/xlsx/mel.xlsx)
 
-Clique [aqui](link) e baixe a pasta compactada contendo os dois scripts que iremos utilizar para este tutorial.
+Clique [aqui](https://github.com/oajoj/network/raw/master/doc/files/rar/scripts.rar) e baixe a pasta compactada contendo os dois scripts que iremos utilizar para este tutorial.
 
 Extraia a pasta compactada em uma nova pasta vazia e então abra o Visual Studio Code.
 
 Ao abrir o Visual Studio Code clique em `File` e então em `Open Folder`
 
-![Visual File](visualfile.png)
+![Visual File](/doc/img/visualfile.png)
 
 Navegue até a pasta que você criou e então clique em `Selecionar Pasta`.
 
 Feito isso, você terá esses dois arquivos na aba `Explorer`.
 
-![Arquivos](arquivos.png)
+![Arquivos](/doc/img/arquivos.PNG)
 
 Selecione o arquivo `Autores.ipynb` e siga as instruções que estão dentro do arquivo.
 
