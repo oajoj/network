@@ -62,7 +62,7 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
 * Sigma Exporter
     - Sigma Exporter é um plug-in para Gephi, que permite exportar os gráficos gerados para a plataforma web.
     - Para instalar o plug-in abra o Gephi e na barra de menu superior clique em `Ferramentas` e em seguida em `Plug-ins`.
-    ![](/doc/img/gephiferramentas.png)
+    ![](/doc/img/gephiferramentas.PNG)
     - Na nova janela aberta, selecione a aba `Plug-ins Disponíveis` e pesquise por `SigmaExporter`.
     - Selecione o plug-in e então clique em `Instalar`.
     ![](/doc/img/sigmaexporter.PNG)
@@ -85,7 +85,7 @@ Para a produção do gráfico, teremos que instalar algumas ferramentas, tecnolo
 Teremos que instalar algumas extensões para o Visual Studio Code, para isto, abra o seu Visual Studio Code e então clique no ícone de extensões no menu lateral esquerdo.
 
 
-![extensões](/doc/img/extensoesvs.png)
+![extensões](/doc/img/extensoesvs.PNG)
 
 Na nova janela busque por `Jupyter`, e então clique em `Install` no primeiro resultado.
 Repita o processo, porém, desta vez pesquisando por `Python`
@@ -100,7 +100,7 @@ Extraia a pasta compactada em uma nova pasta vazia e então abra o Visual Studio
 
 Ao abrir o Visual Studio Code clique em `File` e então em `Open Folder`
 
-![Visual File](/doc/img/visualfile.png)
+![Visual File](/doc/img/visualfile.PNG)
 
 Navegue até a pasta que você criou e então clique em `Selecionar Pasta`.
 
@@ -111,7 +111,7 @@ Feito isso, você terá esses dois arquivos na aba `Explorer`.
 Clique no arquivo `Autores.ipynb` para que o mesmo seja aberto no Visual Studio Code. 
 Ao abrir, espere seu carregamento e note a barra superior com alguns botões.
 Nela, será possível iniciar o processamento do script e gerar as planilhas resultantes.
-![Barra Superior](/doc/img/zoombarra.png)
+![Barra Superior](/doc/img/zoombarra.PNG)
 Vamos focar nas ações que iremos utilizar:
 - O primero botão (►►)irá rodar o script desde o seu início;
 - O quarto botão (⭯) reinicia todas as variáveis do script;
@@ -141,36 +141,36 @@ Abra o Gephi e em sua tela de Boas Vindas cliquem em `Novo Projeto`.
 
 No menu superior clique em `Laboratório de Dados`.
 
-![Laboratório de Dados](/doc/img/lab.png)
+![Laboratório de Dados](/doc/img/lab.PNG)
 
 Nesta nova janela, clique em `Importar Planilha`
 
-![Import](/doc/img/import.png)
+![Import](/doc/img/import.PNG)
 
 Selecione o arquivo `resultado_final.xlsx` e confirme clicando em `abrir`
 
 Altere, no campo `Import as`, para `Edge Table`. Apenas as colunas `Source`, `Target` e `Weight` devem ser exibidas. Clique em `Próximo`
 
-![Arestas](/doc/img/edge.png)
+![Arestas](/doc/img/edge.PNG)
 
 Clique em `PRÓXIMO` e então em `FINALIZAR`
 
 Na tela final, mude o tipo de grafo para `NÃO-DIRIGIDO` e selecione a opção `APPEND TO EXISTING WORKSPACE` e pressione `OK`
 
-![Importação](/doc/img/impor.png)
+![Importação](/doc/img/impor.PNG)
 
 Agora, ainda no `Laboratório de dados`, na aba `Tabela de dados` clique em `Nós`
 
-![Nós](/doc/img/nos.png)
+![Nós](/doc/img/nos.PNG)
 
 No menu inferior, clique em `Copiar dados para outra coluna` e selecione `Id`
 
-![Id](/doc/img/Id.png)
+![Id](/doc/img/Id.PNG)
 
 Selecione `Label` e clique em `Ok`
 
 
-![Label](/doc/img/labela.png)
+![Label](/doc/img/labela.PNG)
 
 #
 ## Melhorando a visualização
@@ -181,7 +181,7 @@ No menu superior, clique em `Visão Geral` e então você verá o resultado das 
 No menu lateral superior esquerdo na aba `Aparência` selecione o item `Nós` e seleciona o símbolo de uma Paleta de Pintura
 
 
-![Cor](/doc/img/cor.png)
+![Cor](/doc/img/cor.PNG)
 
 Agora, clique e segure no quadrado cinza e escolha a cor de sua preferência e clique em `Aplicar`
 
@@ -190,7 +190,7 @@ Para exibir os nomes dos autores, no menu superior esquerdo, na aba `Nós` cliqu
 ## Modularidade
 No menu lateral dirieto na aba `Estatísticas` procure por `Modularidade` e clique em `Executar`
 
-![Modularidade](/doc/img/mod.png)
+![Modularidade](/doc/img/mod.PNG)
 
 Desmarque a opção `Utilizar pesos de aresta` e então clique em `ok`.
 
@@ -200,7 +200,7 @@ Feche a nova janela que surgiu.
 
 No menu lateral direito na aba `Estatísticas` procure por `Grau ponderado médio` e clique em `Executar`
 
-![Grau](/doc/img/grau.png)
+![Grau](/doc/img/grau.PNG)
 
 Feche a nova janela que surgiu.
 
@@ -208,13 +208,13 @@ Feche a nova janela que surgiu.
 
 No menu lateral inferior direito, clique em `--Escolha uma distribuição` e selecione `Circle Pack Layout`
 
-![Círculo](/doc/img/circle.png)
+![Círculo](/doc/img/circle.PNG)
 
 No menu `Hierarchy1` selecione `Modularity Class`
 
 No menu `Hierarchy2` selecione `Grau Ponderado`
 
-![Atributos](/doc/img/att.png)
+![Atributos](/doc/img/att.PNG)
 
 Clique em `executar`
 
@@ -226,7 +226,7 @@ Desta forma já teremos uma visualização bem melhor.
 
 Salve o seu projeto e então, no menu superior, clique em `Visualização` e logo clique em `Atualizar`
 
-![Atualizar](/doc/img/atualizar.png)
+![Atualizar](/doc/img/atualizar.PNG)
 
 
 #
@@ -249,7 +249,7 @@ Clique em `Arquivo` e `Exportar` e seleciona `Sigma.js Template`
 
 A seguinte janela abrirá
 
-![Exportar](/doc/img/exporter.png)
+![Exportar](/doc/img/exporter.PNG)
 
 Explicação dos campos:
 - O primeiro campo, que possui o botão `Browser`, identifica onde você quer salvar o gráfico (lembre-se de criar uma pasta vazia para salvar)
@@ -260,7 +260,7 @@ Explicação dos campos:
     - Color: Descrição do que as cores representam no gráfico (Ex.: Pessoas)
 
 - Branding
-    - Logo(url): Endereço do arquivo que representa seu logotipo (Ex.: C:\Users\usuario\fotos\logotipo.png)
+    - Logo(url): Endereço do arquivo que representa seu logotipo (Ex.: C:\Users\usuario\fotos\logotipo.PNG)
     - Link: Link para sua instituição (Ex.: www.instituicao.com.br)
     - Author: Nome do autor que gerou o gráfico (Ex.: Fulano de tal)
     - Title: Título do gráfico (Ex.: Relação de Parentesco)
@@ -279,13 +279,13 @@ Ao final, clique em `Ok`
 
 Navegue até a pasta onde você escolheu salvar o gráfico. Você encontrará uma pasta chamada `network`
 
-![Rede](/doc/img/network.png)
+![Rede](/doc/img/network.PNG)
 
 Abra a pasta e todo o conteúdo do gráfico estará lá.
 
 Clique na barra de pesquisa superior e copie o caminho dos arquivos
 
-![Path](/doc/img/caminho.png)
+![Path](/doc/img/caminho.PNG)
 
 Abra o terminal do seu computador e insira `cd` e em seguida cole o caminho do seus arquivos
 
@@ -293,7 +293,7 @@ Abra o terminal do seu computador e insira `cd` e em seguida cole o caminho do s
  cd C:\Users\joao-\Desktop\Network\teste\network
 ```
 
-![CMD](/doc/img/cmd.png)
+![CMD](/doc/img/cmd.PNG)
 
 Feito isso copie e cole o seguinte código
 
@@ -301,7 +301,7 @@ Feito isso copie e cole o seguinte código
 python -m http.server
 ```
 
-![Python](/doc/img/py.png)
+![Python](/doc/img/py.PNG)
 
 Agora no seu navegador acesse http://localhost:8000/
 
