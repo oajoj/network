@@ -111,7 +111,7 @@ Feito isso, você terá esses dois arquivos na aba `Explorer`.
 Clique no arquivo `Autores.ipynb` para que o mesmo seja aberto no Visual Studio Code. 
 Ao abrir, espere seu carregamento e note a barra superior com alguns botões.
 Nela, será possível iniciar o processamento do script e gerar as planilhas resultantes.
-![](/doc/img/zoombarra.png)
+![Barra Superior](/doc/img/zoombarra.png)
 Vamos focar nas ações que iremos utilizar:
 - O primero botão (►►)irá rodar o script desde o seu início;
 - O quarto botão (⭯) reinicia todas as variáveis do script;
@@ -122,7 +122,7 @@ Vamos focar nas ações que iremos utilizar:
 
 Repare como o documento `Planilha_Exemplo.xlsx` está junto dos scripts, ou seja, estão na mesma pasta.
 
-![](/doc/img/exemploplanilha.png)
+![Planilha](/doc/img/exemploplanilha.png)
 
 ### Abra o arquivo `autores.ipynb`, siga as instruções do script e então execute-o.
 ### É esperado que seja gerado uma planilha com o nome `autores.xlsx`.
@@ -141,36 +141,36 @@ Abra o Gephi e em sua tela de Boas Vindas cliquem em `Novo Projeto`.
 
 No menu superior clique em `Laboratório de Dados`.
 
-![](/doc/img/lab.png)
+![Laboratório de Dados](/doc/img/lab.png)
 
 Nesta nova janela, clique em `Importar Planilha`
 
-![](/doc/img/import.png)
+![Import](/doc/img/import.png)
 
 Selecione o arquivo `resultado_final.xlsx` e confirme clicando em `abrir`
 
 Altere, no campo `Import as`, para `Edge Table`. Apenas as colunas `Source`, `Target` e `Weight` devem ser exibidas. Clique em `Próximo`
 
-![](/doc/img/edge.png)
+![Arestas](/doc/img/edge.png)
 
 Clique em `PRÓXIMO` e então em `FINALIZAR`
 
 Na tela final, mude o tipo de grafo para `NÃO-DIRIGIDO` e selecione a opção `APPEND TO EXISTING WORKSPACE` e pressione `OK`
 
-![](/doc/img/impor.png)
+![Importação](/doc/img/impor.png)
 
 Agora, ainda no `Laboratório de dados`, na aba `Tabela de dados` clique em `Nós`
 
-![](/doc/img/nos.png)
+![Nós](/doc/img/nos.png)
 
 No menu inferior, clique em `Copiar dados para outra coluna` e selecione `Id`
 
-![](/doc/img/Id.png)
+![Id](/doc/img/Id.png)
 
 Selecione `Label` e clique em `Ok`
 
 
-![](/doc/img/labela.png)
+![Label](/doc/img/labela.png)
 
 #
 ## Melhorando a visualização
@@ -181,7 +181,7 @@ No menu superior, clique em `Visão Geral` e então você verá o resultado das 
 No menu lateral superior esquerdo na aba `Aparência` selecione o item `Nós` e seleciona o símbolo de uma Paleta de Pintura
 
 
-![](/doc/img/cor.png)
+![Cor](/doc/img/cor.png)
 
 Agora, clique e segure no quadrado cinza e escolha a cor de sua preferência e clique em `Aplicar`
 
@@ -190,7 +190,7 @@ Para exibir os nomes dos autores, no menu superior esquerdo, na aba `Nós` cliqu
 ## Modularidade
 No menu lateral dirieto na aba `Estatísticas` procure por `Modularidade` e clique em `Executar`
 
-![](/doc/img/mod.png)
+![Modularidade](/doc/img/mod.png)
 
 Desmarque a opção `Utilizar pesos de aresta` e então clique em `ok`.
 
@@ -200,7 +200,7 @@ Feche a nova janela que surgiu.
 
 No menu lateral direito na aba `Estatísticas` procure por `Grau ponderado médio` e clique em `Executar`
 
-![](/doc/img/grau.png)
+![Grau](/doc/img/grau.png)
 
 Feche a nova janela que surgiu.
 
@@ -208,13 +208,13 @@ Feche a nova janela que surgiu.
 
 No menu lateral inferior direito, clique em `--Escolha uma distribuição` e selecione `Circle Pack Layout`
 
-![](/doc/img/circle.png)
+![Círculo](/doc/img/circle.png)
 
 No menu `Hierarchy1` selecione `Modularity Class`
 
 No menu `Hierarchy2` selecione `Grau Ponderado`
 
-![](/doc/img/att.png)
+![Atributos](/doc/img/att.png)
 
 Clique em `executar`
 
@@ -226,7 +226,7 @@ Desta forma já teremos uma visualização bem melhor.
 
 Salve o seu projeto e então, no menu superior, clique em `Visualização` e logo clique em `Atualizar`
 
-![](/doc/img/atualizar.png)
+![Atualizar](/doc/img/atualizar.png)
 
 
 #
@@ -249,7 +249,7 @@ Clique em `Arquivo` e `Exportar` e seleciona `Sigma.js Template`
 
 A seguinte janela abrirá
 
-![](/doc/img/exporter.png)
+![Exportar](/doc/img/exporter.png)
 
 Explicação dos campos:
 - O primeiro campo, que possui o botão `Browser`, identifica onde você quer salvar o gráfico (lembre-se de criar uma pasta vazia para salvar)
@@ -279,13 +279,13 @@ Ao final, clique em `Ok`
 
 Navegue até a pasta onde você escolheu salvar o gráfico. Você encontrará uma pasta chamada `network`
 
-![](/doc/img/network.png)
+![Rede](/doc/img/network.png)
 
 Abra a pasta e todo o conteúdo do gráfico estará lá.
 
 Clique na barra de pesquisa superior e copie o caminho dos arquivos
 
-![](/doc/img/caminho.png)
+![Path](/doc/img/caminho.png)
 
 Abra o terminal do seu computador e insira `cd` e em seguida cole o caminho do seus arquivos
 
@@ -293,7 +293,7 @@ Abra o terminal do seu computador e insira `cd` e em seguida cole o caminho do s
  cd C:\Users\joao-\Desktop\Network\teste\network
 ```
 
-![](/doc/img/cmd.png)
+![CMD](/doc/img/cmd.png)
 
 Feito isso copie e cole o seguinte código
 
@@ -301,7 +301,7 @@ Feito isso copie e cole o seguinte código
 python -m http.server
 ```
 
-![](/doc/img/py.png)
+![Python](/doc/img/py.png)
 
 Agora no seu navegador acesse http://localhost:8000/
 
