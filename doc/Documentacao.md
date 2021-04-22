@@ -122,7 +122,7 @@ Vamos focar nas ações que iremos utilizar:
 
 Repare como o documento `Planilha_Exemplo.xlsx` está junto dos scripts, ou seja, estão na mesma pasta.
 
-![Planilha](/doc/img/exemploplanilha.png)
+![Planilha](/doc/img/exemploplanilha.PNG)
 
 ### Abra o arquivo `autores.ipynb`, siga as instruções do script e então execute-o.
 ### É esperado que seja gerado uma planilha com o nome `autores.xlsx`.
